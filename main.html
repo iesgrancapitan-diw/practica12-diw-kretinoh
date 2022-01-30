@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- AGREGADOS -->
+  <script src="https://kit.fontawesome.com/f53191175b.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+  <script src="src/js/index.js"></script>
+  <link rel="stylesheet" href="src/css/normalize.css">
+  <link rel="stylesheet" href="src/css/main.css">
+  <title>Rafael Maestre del Río</title>
+</head>
+
+<body>
+  <div class="grid-container">
+    <header>
+      <img src="src/img/logo.png" alt="Logo Casa Campo">
+      <nav id="menu">
+        <ul>
+          <li>
+            <a href="#">Mejores Valoradas</a>
+          </li>
+          <li>
+            <a href="#">Ofertas</a>
+          </li>
+          <li>
+            <a href="#">Tu espacio</a>
+          </li>
+        </ul>
+      </nav>
+      <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+        <ul class="mobile-menu">
+          <li>
+            <a href="#">Home</a>
+          </li>
+          <li>
+            <a href="#">Ofertas</a>
+          </li>
+          <li>
+            <a href="#">Cerca de ti</a>
+          </li>
+          <li>
+            <a href="#">Tu espacio</a>
+          </li>
+
+        </ul>
+      </div>
+    </header>
+    <main>
+      <div class="form-busqueda">
+        <form action="#" method="post">
+          <p>Localización</p>
+          <input type="text" name="localizacion" required>
+          <p>Fecha entrada y salida</p>
+          <input type="date" name="entrada"> <input type="date" name="salida">
+          <input type="submit" id="submit" value="Buscar">
+        </form>
+      </div>
+      <div id="filters">
+        <button class="btn active">Mostrar Todos</button>
+        <button class="btn">Precio Asc.</button>
+        <button class="btn">Precio Des.</button>
+        <button class="btn">Wifi</button>
+        <button class="btn">Mas de 4 hab.</button>
+      </div>
+      <section>
+        <h1>Resultado de la busqueda:</h1>
+        <div class="contenedor-cards">
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="src/img/Propiedades/casa1.jpg" alt="Casa 1">
+              </div>
+              <div class="flip-card-back">
+                <h2>Matalascaña</h2>
+                <p>Wifi</p>
+                <p>Animales</p>
+                <p>Accesible</p>
+                <p class="price">80€ p/n</p>
+                <p><button><a href="inside.html">Reservar</a></button></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="src/img/Propiedades/casa2.jpg" alt="Casa 1">
+              </div>
+              <div class="flip-card-back">
+                <h2>Matalascaña</h2>
+                <p>Wifi</p>
+                <p>Animales</p>
+                <p>Accesible</p>
+                <p class="price">80€ p/n</p>
+                <p><button><a href="inside.html">Reservar</a></button></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="src/img/Propiedades/casa3.jpg" alt="Casa 1">
+              </div>
+              <div class="flip-card-back">
+                <h2>Matalascaña</h2>
+                <p>Wifi</p>
+                <p>Animales</p>
+                <p>Accesible</p>
+                <p class="price">80€ p/n</p>
+                <p><button><a href="inside.html">Reservar</a></button></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="src/img/Propiedades/casa4.jpg" alt="Casa 1">
+              </div>
+              <div class="flip-card-back">
+                <h2>Matalascaña</h2>
+                <p>Wifi</p>
+                <p>Animales</p>
+                <p>Accesible</p>
+                <p class="price">80€ p/n</p>
+                <p><button><a href="inside.html">Reservar</a></button></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="src/img/Propiedades/casa5.jpg" alt="Casa 1">
+              </div>
+              <div class="flip-card-back">
+                <h2>Matalascaña</h2>
+                <p>Wifi</p>
+                <p>Animales</p>
+                <p>Accesible</p>
+                <p class="price">80€ p/n</p>
+                <p><button> <a href="inside.html">Reservar</a></button></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="src/img/Propiedades/casa6.jpg" alt="Casa 1">
+              </div>
+              <div class="flip-card-back">
+                <h2>Matalascaña</h2>
+                <p>Wifi</p>
+                <p>Animales</p>
+                <p>Accesible</p>
+                <p class="price">80€ p/n</p>
+                <p><button> <a href="inside.html">Reservar</a></button></p>
+              </div>
+            </div>
+          </div>
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="src/img/Propiedades/casa7.jpg" alt="Casa 1">
+              </div>
+              <div class="flip-card-back">
+                <h2>Matalascaña</h2>
+                <p>Wifi</p>
+                <p>Animales</p>
+                <p>Accesible</p>
+                <p class="price">80€ p/n</p>
+                <p><button> <a href="inside.html">Reservar</a></button></p>
+              </div>
+            </div>
+          </div>
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="src/img/Propiedades/casa8.jpg" alt="Casa 1">
+              </div>
+              <div class="flip-card-back">
+                <h2>Matalascaña</h2>
+                <p>Wifi</p>
+                <p>Animales</p>
+                <p>Accesible</p>
+                <p class="price">80€ p/n</p>
+                <p><button> <a href="inside.html">Reservar</a></button></p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </section>
+    </main>
+    <footer>
+      <div>Rafael Maestre del Río</div>
+      <a href="https://twitter.com/kretinoh" class="social"><img src="src/img/twitter.svg" alt="Twitter-Logo"></a>
+      <a href="https://github.com/kretinoh" class="social">
+        <img src="src/img/github.svg" alt="Github-Logo">
+      </a>
+    </footer>
+  </div>
+</body>
+
+</html>
