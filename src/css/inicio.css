@@ -5,15 +5,14 @@
   box-sizing: border-box;
 }
 body{
-  background: var(--dark-primary-color);
+  background: url(../img/imagen-lago.jpg);
+  background-attachment: cover;
 }
 .button-container{
   display: inline-block;
   position: relative;
   width: 100vw;
   height: 60vh;
-  background: url(../img/imagen-lago.jpg);
-  background-attachment: cover;
   text-align: center;
 }
 
@@ -71,13 +70,26 @@ body{
   object-fit: cover;
 }
 /* TABLETS */
-/* @media only screen and (min-width: 426px) and (max-width: 1024px) {
+@media only screen and (min-width: 426px) and (max-width: 1024px) {
+  .image-box{
+    display: flex;
+    height: 100%;
+    width: 400%;
+    justify-content: space-between;
+    animation: imgBox 20s linear infinite;
+  }
 
-} */
+}
 /* ORDENADORES */
-/* @media only screen and (min-width: 1025px) {
-
-} */
+@media only screen and (min-width: 1025px) {
+  .image-box{
+    display: flex;
+    height: 100%;
+    width: 400%;
+    justify-content: space-between;
+    animation: imgBox 30s linear infinite;
+  }
+}
 :root {
   --dark-primary-color: #388e3c;
   --default-primary-color: #4caf50;
