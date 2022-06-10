@@ -169,6 +169,7 @@ header nav {
   flex-basis: 20%;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 .info .localizacion{
   font-style: italic;
@@ -189,7 +190,7 @@ header nav {
 h2{
   padding-left: 5px;
   margin-bottom: 5px;
-  margin-top: 15px;
+  margin-top: 30px;
 }
 .card-precios{
   border: 1px solid black;
@@ -230,6 +231,7 @@ iframe{
 .contacto{
   margin-top: 20px;
   text-align: center;
+  margin-bottom: 30px;
 }
 .contacto h3{
   margin: 14px 20px;
