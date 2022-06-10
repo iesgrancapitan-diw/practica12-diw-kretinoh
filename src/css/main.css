@@ -226,6 +226,7 @@ button a{
   text-transform: uppercase;
   cursor: pointer;
   margin-bottom: 10px;
+  margin-top: 5px;
 }
 .tag-novedad{
   background-color: #716803;
@@ -239,12 +240,12 @@ button a{
 }
 .card > p{
   font-size: 16px;
-  margin: 10px 0 10px;
+  margin: 10px 30px 10px;
   text-align: justify;
 }
 .card-info{
   margin: 30px;
-  border-top: 1px ridge;
+  border-top: 2px ridge;
   display: flex;
   flex-wrap: wrap;
 }

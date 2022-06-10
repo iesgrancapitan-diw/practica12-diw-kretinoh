@@ -123,9 +123,6 @@ header nav {
   border-radius: 5px;
   width: 40vw;
 }
-.aside form{
-  margin: 0 auto;
-}
 
 /* MAIN */
 .content-principal{
@@ -152,13 +149,31 @@ header nav {
   object-fit: cover;
   scroll-snap-align: center;
 }
+.info{
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
 .info h1{
   margin-top: 12px;
   margin-bottom: 7px;
+  flex-basis: 70%;
+}
+.info .precio{
+  font-size: 20px;
+  background: var(--default-primary-color);
+  border-radius: 7px;
+  padding: 10px;
+  color: var(--text-primary-color);
+  flex-basis: 20%;
+  display: flex;
+  align-items: center;
 }
 .info .localizacion{
   font-style: italic;
   margin-bottom: 15px;
+  flex-basis: 50%;
 }
 .card-principal .propiedades{
   display: flex;
@@ -206,11 +221,39 @@ h2{
 }
 .iframe-container{
   text-align: center;
-  margin-bottom: 15px;
 }
 
 iframe{
-  width: 90vw;
+  width: 60vw;
+}
+
+.contacto{
+  margin-top: 20px;
+  text-align: center;
+}
+.contacto h3{
+  margin: 14px 20px;
+}
+.contacto form{
+  margin-bottom: 20px;
+}
+.contacto form label input[type="text"]{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 40%;
+}
+.contacto form label input[type="email"]{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 40%;
+}
+.contacto form label input[type="number"]{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 5%;
+}
+textarea{
+  margin-top: 10px;
 }
 
 /* FOOTER */
@@ -293,7 +336,6 @@ footer div {
     width: 30vw;
     background: none;
     border: none;
-    height: 80vh;
   }
   .aside input[type="date"]{
     width: 100%;
@@ -312,9 +354,6 @@ footer div {
   .card-principal img{
     width: 98%;
     height: 40vh;
-  }
-  iframe{
-    width: 65vw;
   }
 }
 
